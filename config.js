@@ -1,9 +1,9 @@
 var config = {
   title: "Infinity SMP",
-  center: [0, 64, 0], // adjust to your spawn if needed
+  center: [0, 64, 0],
   zoom: 1,
   world: "infinitySMP",
-  worldname: "infinitySMP",
+  worldname: "Infinity SMP",
   map: "surface",
   controls: {
     pan: true,
@@ -25,6 +25,14 @@ var config = {
       zoomlevels: 5,
       tileSize: 128,
       mapzoomout: 3
+    },
+    {
+      name: "cave",
+      path: "tiles/infinitySMP/cave",
+      zoomlevels: 5,
+      tileSize: 128,
+      mapzoomout: 3
     }
   ]
 };
+
